@@ -1,0 +1,47 @@
+Ejercicios práctico
+
+Consigna: Crear una página web simple para una empresa de viajes utilizando únicamente CSS para estilizar los
+elementos.
+
+Especificaciones:
+
+La página debe incluir un encabezado, un pie de página y tres secciones principales: "Destinos populares",
+ "Promociones actuales" y "Testimonios de clientes".
+El encabezado debe incluir un logotipo de la empresa y un menú de navegación horizontal con enlaces a las
+ secciones de la página.
+La sección "Destinos populares" debe incluir al menos tres imágenes de destinos populares con una breve
+ descripción debajo de cada una. Las imágenes y los textos deben estar alineados y distribuidos uniformemente
+ en la sección.
+La sección "Promociones actuales" debe incluir al menos dos imágenes de promociones actuales con un título
+ y una descripción debajo de cada una. Las imágenes y los textos deben estar alineados y distribuidos
+ uniformemente en la sección.
+La sección "Testimonios de clientes" debe incluir al menos tres testimonios de clientes con una imagen del cliente,
+ su nombre y una cita debajo de cada uno. Las imágenes y los textos deben estar alineados y distribuidos
+ uniformemente en la sección.
+El pie de página debe incluir información de contacto de la empresa, como la dirección, el número de teléfono
+y el correo electrónico.
+
+Lineamientos de diseño:
+
+Utilizar una paleta de colores adecuada para una empresa de viajes. Los colores deben ser atractivos y armoniosos.
+Utilizar fuentes legibles y adecuadas para una página web. Se recomienda utilizar no más de dos tipos de fuentes
+en toda la página.
+Utilizar diseños de caja personalizados para cada sección. Las secciones deben tener un fondo de color o una imagen
+de fondo personalizados.
+Utilizar estilos de texto personalizados para los títulos, descripciones y citas en cada sección. Los estilos deben
+ser legibles y adecuados para la sección en la que se utilizan.
+Utilizar estilos de imagen personalizados para las imágenes en cada sección. Las imágenes deben tener un tamaño
+y una alineación uniformes en cada sección.
+Utilizar estilos de navegación personalizados para el menú de navegación horizontal. El menú debe tener un estilo
+de ratón sobre y un estilo de activo.
+
+
+Paleta de colores:
+
+Verde oscuro (#0A684F)
+Verde claro (#48A78F)
+Gris oscuro (#333333)
+Gris claro (#CCCCCC)
+Blanco (#FFFFFF)
+Estos colores son adecuados para una empresa de viajes, ya que el verde puede representar la naturaleza y la
+aventura, mientras que el gris y el blanco pueden dar una sensación de profesionalismo y confianza.

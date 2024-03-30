@@ -1,0 +1,180 @@
+/* @import url('https://fonts.google.com/share?selection.family=Roboto');
+*font-family: 'Roboto', sans-serif; */
+:root {
+    --darkGreen: #0A684F;
+    --green: #48A78F;
+    --darkGrey:#333333;
+    --grey:#CCCCCC;
+    --white:#ffffff;
+  }
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*-----------------HEADER----------------*/
+
+header {
+    background: var(--darkGrey);
+    display: flex;
+    flex-direction: column;
+}
+header img {
+    width: 250px;
+    align-self: center;
+}
+.menu {
+    font-size: 24px;
+    border-bottom: white 2px solid;
+    border-top: white 2px solid;
+}
+ul {
+    list-style: none;
+    background-color: var(--darkGrey);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 21px;
+    padding-right: 20px;
+}
+li a:hover {
+    background-color: var(--green);
+    color: var(--darkGrey);
+}
+li a:active {
+    background-color: var(--grey);
+    color: var(--darkGreen);
+}
+
+/*-----------------Main General----------------*/
+
+main {
+    background: linear-gradient(var(--darkGreen), var(--grey));
+    margin: 0%;
+    padding: 0%;
+}
+
+/*-----------------SECTION 1 - DESTINO ----------------*/
+
+#destino {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#destino h2{
+    color: var(--white);
+    font-size: 26px;
+}
+.imgDestinos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imgDestinos div {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.imgDestinos div img{
+    width: 250px;
+    height: 500px;
+    border: 2px solid black;
+}
+.imgDestinos div p{
+    color: var(--white);
+    text-align: center;
+    font-size: 22px;
+}
+
+/*-----------------SECTION 2 - PROMOCIONES ----------------*/
+
+#promocion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#promocion h2{
+    color: var(--white);
+    font-size: 26px;
+}
+#promocion h3{
+    color: var(--white);
+    font-size: 22px;
+}
+.promo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.promo img{
+    width: 250px;
+    height: 350px;
+    margin-right: 5%;
+    border: 2px solid black;
+}
+.promo p{
+    width: 250px;
+    font-size: 20px;
+}
+
+/*-----------------SECTION 3 - TESTIMONIOS ----------------*/
+
+#testimonio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#testimonio img {
+    width: 250px;
+}
+#testimonio h2{
+    font-size: 26px;
+}
+.cliente {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    width: 60%;
+    justify-content: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    width: 50%;
+    font-style: italic;
+}
+.info h3{
+    font-size: 22px;
+    font-style: italic;
+}
+.info p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/*----------------- FOOTER ----------------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--darkGrey);
+    color: white;
+}
+.contacto img {
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1%;
+}
